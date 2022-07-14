@@ -22,10 +22,6 @@ public class DepositoImpl implements Deposito {
         System.out.printf("Seu saldo atual é de R$ é %.2f %n" ,conta.getSaldo());
         return valor;
 
-
-
-
-
     }
 
 }
