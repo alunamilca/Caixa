@@ -54,6 +54,7 @@ public class ExecutaComandoEspecificoImpl implements ExecutaComandoEspecifico {
             abrirConta.execute();
 
         } else if (comando == 4) {
+            transferencia.execute();
 
             System.out.println("Digite sua conta");
             int numero = entrada.nextInt();

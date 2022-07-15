@@ -9,7 +9,7 @@ public class MemoriaContaRepository implements BaseRepository<Conta> {
 
     @Override
     public List<Conta> findAll() {
-        return null;
+        return contas;
     }
 
     @Override
